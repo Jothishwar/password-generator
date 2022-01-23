@@ -18,16 +18,16 @@
 		<h1>Random Password Generator</h1>
 		<div id="b1">
 			<input type="text" id="result" placeholder="Your Password" readonly="true">
-			<button id="gen-btn" onclick="generate()">Generate</button>
-			<button id="copy-btn" onclick="copy()"><i class="far fa-copy"></i>
+			<button id="gen-btn" name="generate" onclick="generate()">Generate</button>
+			<button id="copy-btn" name="copy" onclick="copy()"><i class="far fa-copy"></i>
 			</button>
 		</div>
 		<div class="rangeslider">
 			<p>Password Length:&nbsp<output id="sliderval"> 8</output></p>
 			<div>
-			<button id="dec-btn" onclick="decrement()"><i class="far fa-minus"></i></button>
+			<button id="dec-btn" name="decrement" onclick="decrement()"><i class="far fa-minus"></i></button>
 			<input type="range" min="1" max="30" value="8" id="slider" oninput="sliderval.value =slider.value">
-			<button id="inc-btn" onclick="increment()"><i class="far fa-plus"></i></button>
+			<button id="inc-btn" name="increment" onclick="increment()"><i class="far fa-plus"></i></button>
 			</div>
 		</div>
 		<div id="options">
