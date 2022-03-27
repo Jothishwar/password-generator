@@ -173,13 +173,13 @@ body{
 	border:none;
 	border-radius: 10px;
 	height:35px;
-	width: 250px; 
+	width: 250px;
 	margin-left: 20px;
 	font-size: 1.2rem;
 	padding-left: 10px;
 	box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
 }
-/*----------------------Tablet_view---------------------------*/
+/*----------------------------------Tablet_view--------------------------------------*/
 @media(max-width: 768px){
 	body{
 		width: 100vw;
@@ -187,7 +187,7 @@ body{
 	}
 	#container{
 		width: 675px;
-		height: 320px;
+		height: 370px;
 	}
 	#container h1{
 		font-size: 1.5em;
@@ -211,8 +211,11 @@ body{
 		margin-left: 30px;
 		font-size: 1.3rem;	
 	}
+	#custom{
+		font-size: 1.4rem;
+	}
 }
-/*--------------------Mobile_view-----------------------------*/
+/*---------------------------Mobile_view----------------------------------*/
 @media(max-width: 426px){
 	body{
 		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='426' height='665' preserveAspectRatio='none' viewBox='0 0 426 665'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1035%26quot%3b)' fill='none'%3e%3crect width='426' height='665' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c233.692C60.167%2c242.453%2c118.149%2c294.25%2c174.621%2c271.716C230.531%2c249.406%2c246.987%2c178.959%2c273.097%2c124.719C299.732%2c69.388%2c337.026%2c13.583%2c328.132%2c-47.178C319.244%2c-107.9%2c272.635%2c-155.892%2c226.158%2c-195.967C184.06%2c-232.266%2c132.721%2c-258.565%2c77.346%2c-263.418C27.041%2c-267.826%2c-15.557%2c-231.589%2c-65.034%2c-221.484C-120.889%2c-210.076%2c-193.546%2c-243.138%2c-231.26%2c-200.388C-268.884%2c-157.74%2c-225.708%2c-89.844%2c-231.111%2c-33.229C-236.148%2c19.551%2c-278.602%2c69.272%2c-261.795%2c119.558C-244.789%2c170.441%2c-193.914%2c203.771%2c-144.735%2c225.212C-99.518%2c244.925%2c-48.812%2c226.584%2c0%2c233.692' fill='%230b2239'%3e%3c/path%3e%3cpath d='M426 934.5160000000001C475.942 933.322 519.109 901.862 558.37 870.972 594.802 842.307 623.717 806.256 642.7429999999999 763.983 661.692 721.881 666.979 676.569 666.646 630.4 666.269 578.13 667.049 524.11 640.687 478.973 611.671 429.29200000000003 569.0699999999999 381.805 513.269 367.789 457.922 353.887 399.795 378.186 349.93399999999997 405.942 306.526 430.106 278.683 472.168 251.3 513.621 227.032 550.359 213.579 590.578 200.246 632.5409999999999 184.233 682.941 147.277 734.332 165.38799999999998 784.017 183.485 833.665 243.739 850.973 289.5 877.399 333.096 902.575 375.671 935.719 426 934.5160000000001' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1035'%3e%3crect width='426' height='665' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
@@ -220,12 +223,12 @@ body{
 		height: 100vh;
 	}
 	#container{
-		width: 290px;
-		height: 450px;
+		width: 300px;
+		height: 520px;
 	}
 	#result{
 		width: 80%;
-		margin-bottom: 10px;	
+		margin-bottom: 10px;
 	}
 	.rangeslider{
 		display: flex;
@@ -248,5 +251,16 @@ body{
 		padding: 0px;
 		height: 17px;
 		width: 17px;
+	}
+	#custom{
+		font-size: 1.2rem;
+		margin-left: 0px;
+	}
+	#cust{
+		width: 150px;
+		height: 30px;
+	}
+	#check{
+		width: 30px;
 	}
 }
